@@ -7,7 +7,7 @@ import (
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprint(w, "Hello, GitOps!")
+        fmt.Fprint(w, "Hello, GitHub!")
     })
     http.HandleFunc("/user", func(w http.ResponseWriter, r *http.Request) {
         fmt.Fprint(w, "Hello, User!")
